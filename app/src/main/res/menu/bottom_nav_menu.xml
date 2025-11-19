@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_account_balance_24"
+        android:title="@string/menu_home" />
+
+    <item
+        android:id="@+id/navigation_upcoming"
+        android:icon="@drawable/outline_calendar_month_24"
+        android:title="@string/menu_upcoming" />
+
+    <item
+        android:id="@+id/navigation_finished"
+        android:icon="@drawable/outline_directory_sync_24"
+        android:title="@string/menu_finished" />
+
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/outline_favorite_border_24"
+        android:title="@string/menu_favorite" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/outline_settings_24"
+        android:title="@string/menu_settings" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Override colors for Dark Theme -->
+    <color name="placeholder_color">#4F5962</color>
+    <color name="error_color">#CF6679</color>
+</resources>
