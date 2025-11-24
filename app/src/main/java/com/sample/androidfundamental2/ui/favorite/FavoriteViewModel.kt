@@ -16,7 +16,6 @@ class FavoriteViewModel(private val repository: EventRepository) : ViewModel() {
             try {
                 repository.deleteFavoriteEventById(eventId)
             } catch (e: Exception) {
-                // Log error silently, UI will update via LiveData
                 e.printStackTrace()
             }
         }

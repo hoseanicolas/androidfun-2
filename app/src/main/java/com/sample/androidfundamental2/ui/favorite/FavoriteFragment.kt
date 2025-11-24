@@ -77,16 +77,13 @@ class FavoriteFragment : Fragment() {
                 val position = viewHolder.absoluteAdapterPosition
                 val deletedEvent = adapter.currentList[position]
 
-                // Delete the event
                 viewModel.deleteFavoriteEvent(deletedEvent.id)
 
-                // Show snackbar with undo option
                 Snackbar.make(
                     binding.root,
                     getString(R.string.favorite_removed, deletedEvent.name),
                     Snackbar.LENGTH_LONG
                 ).setAction(R.string.undo) {
-                    // Restore the deleted event
                     viewModel.restoreFavoriteEvent(deletedEvent)
                 }.show()
             }
