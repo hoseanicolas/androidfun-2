@@ -1,4 +1,4 @@
-package com.sample.androidfundamental1
+package com.sample.androidfundamental2
 
 import org.junit.Test
 
